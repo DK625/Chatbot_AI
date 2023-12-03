@@ -27,3 +27,5 @@ Note:
   - Qualitative assessment here is only used when there is a standard data set (the data used here is fake data, created for temporary use)
 - Quantitative assessment: the figure of 78% on the accuracy of the prediction set compared to the test set is not accurate because natural language processing requires a different assessment (currently the comparison is without error, a word, while the answers have the same meaning but have many different ways of presentation), it is necessary to find a quantitative assessment suitable for the chatbot model
 
+- Only remove meaningless stopwords
+
