@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo-beside {
+    align-items: center;
+    display: flex;
+    
+}
+.btn-open-search {
+    line-height: unset;
+    color: #999;
+    min-width: 180px;
+    justify-content: space-between;
+    display: flex !important;
+    align-items: center;
+    max-height: 34px;
+}
+.font-size--1 {
+    font-size: 14px;
+}
+.btn-open-search {
+    cursor: pointer;
+    border: solid 1px #e4e4e4;
+    border-radius: 999px;
+    line-height: 18px;
+    margin-left: auto;
+    margin-right: 3px;
+    padding: 8px 10px;
+    background-color: white;
+}
+.btn-open-search .fa-search {
+    color: black;
+}
+.logo-beside-btn {
+    font-weight: normal;
+    max-height: 34px;
+}
+.logo-beside-btn {
+    cursor: pointer;
+    color: white;
+    line-height: 22px;
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    position: relative;
+    z-index: 1;
+}
+.bg-main-color-2 {
+    border: 1px;
+    background-color: #F65E0A;
+}
+.menu {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    background-color: #0F92BC;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 16px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li .fa-home {
+    color: white;
+    cursor: pointer;
+}
+.item-body  {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.item-body ul li {
+    display: block;
+}
+.item-body ul li a{
+    height: 20px;
+    padding: 15px 0;
+    display: inline-block;
+    text-decoration: none;
+    color:#333333;
+}
+.item-body ul li a:hover {
+    color:#007bff;
+}
+.category-body {
+    padding-top: 15px;
+}
+.item {
+    margin-top: -15px;
+    border-bottom: dashed 1px #f5f5f5;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0;
+    margin-left: 15px;
+    display: flex;
+}
+.item-index {
+    font-size: 30px;
+    font-family: Merriweather;
+    min-width: 32px;
+    text-align: center;
+    color: #F65E0A;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.item .item-body a{
+    text-decoration: none;
+    color:black
+}
+.item-body a:hover {
+    color: #007bff;
+}
+.item-date {
+    color: #999999;
+    font-size: 14px;
+    display: inline-block;
+}
+.news {
+    font-family: Merriweather;
+    color:#F65E0A;
+    font-size: 22px;
+    font-weight: bold;
+}
+footer {
+    margin-top: 30px;
+    color: #FFFFFF;
+    background-image: url(https://iweb.tatthanh.com.vn/pic/8/setting/fit-bg-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto
+}
+.homepage-text {
+    padding: 30px 0;
+} 
+.homepage-text td {
+    line-height: 30px;
+}
+table {
+    display: flex;
+    justify-content: space-between;
+}
+.fanpage {
+    margin-left: 50px;
+    float: right;
+}
+.uiScaledImageContainer img {
+    position: relative;
+}
+._2zfs {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.menu-footer-2 {
+    line-height: 30px;
+    background: #e1e1e1;
+    padding: 5px 15px 5px 15px;
+    font-size: 13px;
+}
+.fade-popup {
+    display: none;
+    position: fixed;
+    z-index: 8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+}
+.menu-footer-2 .footer-menu a {
+    font-size: 0;
+    padding-left: 10px;
+}
